@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+p {
+  font-feature-settings: 'kern' 1;
+  font-kerning: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  resize: none;
+}
+
+:focus {
+  outline: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #61B9C4;
+}
+
+::selection {
+  color: #fff;
+  background: #61B9C4;
+}
