@@ -104,6 +104,11 @@ textarea {
 }
 
 /* - Header - */
+.header {
+  position: relative;
+  z-index: 2;
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -132,7 +137,6 @@ textarea {
   color: #000;
   font-weight: 700;
   font-size: 16px;
-  transition: color 250ms;
 }
 
 .navigation__link:hover {
@@ -176,15 +180,70 @@ textarea {
 }
 
 .header__language-select {
-  padding-left: 36px;
+  padding-left: 30px;
   padding-right: 14px;
   color: #181717;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 1;
   appearance: none;
   border: none;
   background: transparent url("../images/icon-arrow.png") no-repeat right center;
   background-size: 9px 6px;
+}
+
+/* - Hero - */
+.hero {
+  height: 485px;
+  background: url("../images/background-hero.jpg") no-repeat center top;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.hero__title {
+  display: block;
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+}
+
+.hero__description {
+  display: block;
+  margin: 0 0 40px 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+}
+
+.hero__link {
+  display: inline-flex;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: url("../images/icon-arrow-right-white.png") no-repeat right 15px center;
+  background-size: 24px;
+}
+
+.hero__link:hover {
+  border-color: #61B9C4;
+  background-color: #61B9C4;
+  transition: all 250ms;
 }
 
 /* - Products - */
