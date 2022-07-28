@@ -98,6 +98,10 @@ textarea {
   font-weight: 300;
 }
 
+.home-title__text strong {
+  font-weight: 700;
+}
+
 /* - Header - */
 .header .container {
   display: flex;
@@ -226,4 +230,76 @@ textarea {
   font-size: 20px;
   font-weight: 800;
   line-height: 22px;
+}
+
+/* - Industries - */
+.industries {
+  margin-bottom: 50px;
+}
+
+.industries__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 470px;
+  background: url("../images/banner-industries.jpg") no-repeat center top;
+  background-size: contain;
+}
+
+.industries__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 25%;
+  height: auto;
+  max-height: 470px;
+  padding-bottom: 30px;
+  background-color: rgba(0, 0, 0, .3);
+  border-right: 1px solid #fff;
+  transition: background-color 250ms;
+}
+
+.industries__item:hover {
+  background-color: transparent;
+  transition: background-color 250ms;
+}
+
+.industries__name {
+  display: block;
+  margin: 0;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.industries__description {
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 120px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.industries__more-link {
+  position: relative;
+  padding-left: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.industries__more-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 1px;
+  background-color: #C4C4C4;
 }
