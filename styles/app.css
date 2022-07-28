@@ -72,6 +72,32 @@ textarea {
   margin-left: auto;
 }
 
+/* - Home Title - */
+.home-title {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 130px;
+}
+
+.home-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 2px;
+  background-color: #61B9C4;
+}
+
+.home-title__text {
+  margin: 0;
+  color: #181717;
+  font-size: 32px;
+  font-weight: 300;
+}
+
 /* - Header - */
 .header .container {
   display: flex;
@@ -154,4 +180,50 @@ textarea {
   border: none;
   background: transparent url("../images/icon-arrow.png") no-repeat right center;
   background-size: 9px 6px;
+}
+
+/* - Products - */
+.products {
+  margin-bottom: 50px;
+}
+
+.product__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product__list-item {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.product__list-link {
+  display: block;
+}
+
+.product__list-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product__list-name {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 20px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 22px;
 }
