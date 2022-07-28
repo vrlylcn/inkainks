@@ -303,3 +303,48 @@ textarea {
   height: 1px;
   background-color: #C4C4C4;
 }
+
+/* - About - */
+.about {
+  margin-bottom: 50px;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.about__image {
+  border-radius: 5px;
+}
+
+.about__content {
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.about__paragraph {
+  margin: 0 0 45px 0;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.about__statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__statistics-row {
+  text-align: center;
+}
+
+.about__statistics-number {
+  margin: 18px 0 0;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.about__statistics-text {
+  margin: 0;
+  font-size: 18px;
+}
