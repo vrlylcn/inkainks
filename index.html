@@ -5,10 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inkaikns - Printing Process</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/app.css">
 </head>
 <body>
+
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+
+      <!-- logo start -->
+      <div class="header__logo">
+        <a href="index.html" class="header__logo-link">
+          <img src="images/inkainks-logo.png" alt="Inkainks - Printing Process" width="95" height="96">
+        </a>
+      </div>
+      <!-- logo end -->
+
+      <!-- navigation start -->
+      <nav class="navigation">
+        <a href="index.html" class="navigation__link">Ürünler</a>
+        <a href="index.html" class="navigation__link">Servisler</a>
+        <a href="index.html" class="navigation__link">Endüstriler</a>
+        <a href="index.html" class="navigation__link">Kurumsal</a>
+      </nav>
+      <!-- navigation end -->
+
+      <!-- phone start -->
+      <div class="header__phone">
+        <a href="tel:+902128559886" class="header__phone-link">
+          <img src="images/icon-phone.png" alt="Telefon" width="24" height="24">
+          <span class="header__phone-text">+90 (212) 855 98 86</span>
+        </a>
+      </div>
+      <!-- phone end -->
+
+      <!-- language start -->
+      <div class="header__language header__language--en">
+        <label for="language" class="header__language-label">
+          <select name="language" id="language" class="header__language-select">
+            <option value="EN">EN</option>
+            <option value="TR">TR</option>
+          </select>
+        </label>
+      </div>
+      <!-- language end -->
+
+    </div>
+  </header>
+  <!-- header end -->
 
   <script src="/scripts/jquery-3.6.0.min.js"></script>
   <script src="/scripts/app.js"></script>

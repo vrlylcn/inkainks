@@ -9,7 +9,7 @@
 html,
 body {
   min-height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   color: #000;
   background-color: #fff;
@@ -62,4 +62,96 @@ textarea {
 ::selection {
   color: #fff;
   background: #61B9C4;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* - Header - */
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+}
+
+.header__logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 125px;
+  height: 125px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.navigation__link {
+  padding-left: 15px;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  transition: color 250ms;
+}
+
+.navigation__link:hover {
+  color: #61B9C4;
+  transition: color 250ms;
+}
+
+.header__phone {
+  margin-right: 15px;
+}
+ 
+.header__phone-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  padding: 7px;
+  border: 1px solid #61B9C4;
+  border-radius: 4px;
+}
+
+.header__phone-text {
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+  color: #181717;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header__language {
+  height: 38px;
+  padding: 7px;
+  border: 1px solid #181717;
+  border-radius: 4px;
+}
+
+.header__language--en {
+  background: url("../images/icon-flag-en.png") no-repeat left 7px center;
+  background-size: 24px 24px;
+}
+
+.header__language-select {
+  padding-left: 36px;
+  padding-right: 14px;
+  color: #181717;
+  font-size: 11px;
+  font-weight: 500;
+  appearance: none;
+  border: none;
+  background: transparent url("../images/icon-arrow.png") no-repeat right center;
+  background-size: 9px 6px;
 }
