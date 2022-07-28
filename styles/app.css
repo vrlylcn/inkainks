@@ -322,6 +322,10 @@ textarea {
   transition: background-color 250ms;
 }
 
+.industries__item:last-child {
+  border-right-width: 0;
+}
+
 .industries__item.active,
 .industries__item:hover {
   background-color: transparent;
