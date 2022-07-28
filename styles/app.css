@@ -202,6 +202,8 @@ textarea {
   display: flex;
   align-items: center;
   height: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .hero__title {
@@ -306,7 +308,7 @@ textarea {
   margin-right: auto;
   height: 470px;
   background: url("../images/banner-industries.jpg") no-repeat center top;
-  background-size: contain;
+  background-size: cover;
 }
 
 .industries__item {
@@ -314,14 +316,13 @@ textarea {
   flex-direction: column;
   justify-content: end;
   width: 25%;
-  height: auto;
-  max-height: 470px;
   padding-bottom: 30px;
   background-color: rgba(0, 0, 0, .3);
   border-right: 1px solid #fff;
   transition: background-color 250ms;
 }
 
+.industries__item.active,
 .industries__item:hover {
   background-color: transparent;
   transition: background-color 250ms;
