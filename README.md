@@ -1,1 +1,1 @@
-![Template](“template.png”)
+![Template](https://raw.githubusercontent.com/vrlylcn/inkainks/master/template.png)
