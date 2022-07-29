@@ -190,6 +190,7 @@ textarea {
   border: none;
   background: transparent url("../images/icon-arrow.png") no-repeat right center;
   background-size: 9px 6px;
+  min-height: 22px;
 }
 
 /* - Hero - */
