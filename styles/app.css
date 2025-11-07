@@ -197,6 +197,7 @@ textarea {
 .hero {
   height: 485px;
   background: url("../images/background-hero.jpg") no-repeat center top;
+  background-size: cover;
 }
 
 .hero .container {
